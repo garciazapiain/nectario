@@ -5,7 +5,7 @@ import noodles from '../../images/noodles.png'
 import dataEntradas from '../../data/menu/comidaycena/entradas.json'
 import dataSopas from '../../data/menu/comidaycena/sopas.json'
 import dataEnsaladas from '../../data/menu/comidaycena/ensaladas.json'
-import dataPlatosFuertes from '../../data/menu/comidaycena/platosFuertes.json'
+import dataPlatosFuertes from '../../data/menu/comidaycena/platosfuertes.json'
 import dataSandwichesYHamburguesas from '../../data/menu/comidaycena/sandwichesyhamburguesas.json'
 import React from 'react';
 
