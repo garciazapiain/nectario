@@ -1,0 +1,17 @@
+{
+    "6": {
+        "nombre": "Mexicano",
+        "descripcion": "Chile serrano, tomate, cebolla y queso mozzarella (v)",
+        "precio": "$139"
+    },
+    "7": {
+        "nombre": "Nectario",
+        "descripcion": "Champiñones salteados, pimiento morrón y queso mozarella (v)",
+        "precio": "$139"
+    },
+    "8": {
+        "nombre": "Argentino",
+        "descripcion": "Relleno de espinaca, elote tierno y queso mozzarella (v)",
+        "precio": "$139"
+    }
+}

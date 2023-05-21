@@ -1,0 +1,27 @@
+{
+    "1": {
+        "nombre": "Nectario",
+        "descripcion": "Quinoa, semillas de girasol, almendras, arándanos, kale, y vinagreta de naranja (vv)",
+        "precio": "$170"
+    },
+    "2": {
+        "nombre": "Tabbouleh de Quinoa",
+        "descripcion": "Tomate, pepino, perejil, aceite de oliva y espinacas baby; acompañado de pan de granos (vv)",
+        "precio": "$170"
+    },
+    "3": {
+        "nombre": "Ensalada Verde con Lajas de Atún",
+        "descripcion": "Lechuga, espinaca y arúgula; con aguacate y vinagreta de salsa de soya",
+        "precio": "$259"
+    },
+    "4": {
+        "nombre": "Ensalada Izi",
+        "descripcion": "Mix de lechugas, mango, semilla de girasol, queso feta. Aderezo de miel y ajonjolí (v)",
+        "precio": "$170",
+        "extras":{
+            "1":"Agrega salmón + $210",
+            "2":"Agrega atún + $125",
+            "3":"Agrega pollo + $80"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "1": {
+        "nombre": "Aguachile Mi Palmito",
+        "descripcion": "Picosito aguachile verde con palmitos, pepino, cebolla y aguacate",
+        "precio": "$159"
+    },
+    "2": {
+        "nombre": "Spring Rolls Veganos",
+        "descripcion": "Hoja de arroz rellena de mix de hortalizas, aguacate y noodles de arroz. Acompañados de salsa thai y aderezo de coco & curry",
+        "precio": "$129"
+    },
+    "3": {
+        "nombre": "Empanadas Nectario",
+        "descripcion": "Dos empanadas rellenas de queso ricotta, espinacas y elote. Acompañadas de pesto y semillas de girasol (o, v, i)",
+        "precio": "$129"
+    },
+    "4": {
+        "nombre": "Carpaccio de Betabel",
+        "descripcion": "Láminas de betabel, almendra, vinagreta a base de siracha y soya. Acompañado de pan artesanal (vv)",
+        "precio": "$149"
+    },
+    "5": {
+        "nombre": "Coliflor Dorada",
+        "descripcion": "Coliflor tierna dorada en aceite, sal de mar y perejil fresco; aderezada con dip de cacahuate y habanero (vv)",
+        "precio": "$149"
+    },
+    "6": {
+        "nombre": "Tabbouleh de Maíz",
+        "descripcion": "Granos de elote asado con aguacate, cebolla, tomate, aceite de oliva, limón y jocoque",
+        "precio": "$129"
+    }
+}

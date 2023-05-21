@@ -1,0 +1,48 @@
+{
+    "1": {
+        "nombre": "Hamburguesa Vegetariana",
+        "descripcion": "A base de frijol negro y champiñones; con germen de alfalfa, pico de piña y espinacas. Acompañada de crujientes chips de camote (v)",
+        "precio": "$159"
+    },
+    "2": {
+        "nombre": "Hamburguesa de Sirloin",
+        "descripcion": "Sirloin; mezcla de quesos, pico de gallo y espinaca. Acompañada de chips de camote",
+        "precio": "$189",
+        "extras":{
+            "1": "Con Beyond Meat $269"
+        }
+    }, 
+    "3": {
+        "nombre": "Hamburguesa de Falafel",
+        "descripcion": "A base de garbanzo; mezcla de quesos, pepino, tomate, jocoque y espinaca",
+        "precio": "$179"
+    },
+    "4": {
+        "nombre": "Sandwich Veggie",
+        "descripcion": "En pan integral o parmesano. Champiñones, espinaca, espiral de calabacita y cebolla, salteados en aceite de olivo con queso mozzarella (v)",
+        "precio": "$"
+    },
+    "5": {
+        "nombre": "Sandwich No Doy",
+        "descripcion": "En box bread o pan de 5 granos. Especial apra el recreo; pan integral, aguacate, cebolla, queso mozzarella, tomate y mostaza dijon",
+        "precio": "$129",
+        "extras":{
+            "1": "Con pavo $129",
+            "2": "Con trucha salmonada $199",
+            "3": "Con jamón serrano $199",
+            "4": "Con pastrami de pavo $169",
+            "5": "En pan de 5 granos + $40"
+        }
+    },
+    "6": {
+        "nombre": "Sandwich",
+        "descripcion": "En chapata integral o paremsano. Aguacate, pepino, queso mozzarella, calabacita, espinaca, tomate, hummus y cremoso de pimiento",
+        "precio": "$179",
+        "extras":{
+            "1": "Con pavo $179",
+            "2": "Con trucha salmonada $219",
+            "3": "Con jamón serrano $219",
+            "4": "Con pastrami de pavo $189"
+        }
+    }
+}

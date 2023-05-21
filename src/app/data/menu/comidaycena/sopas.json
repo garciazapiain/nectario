@@ -1,0 +1,17 @@
+{
+    "1": {
+        "nombre": "Tomate",
+        "descripcion": "Tomate rostizado, queso de cabra, elotes y crouton de pan de 5 gramos (v)",
+        "precio": "$99"
+    },
+    "2": {
+        "nombre": "Lentejas",
+        "descripcion": "Lentejas, queso feta y pan de granos (v, gf)",
+        "precio": "$99"
+    },
+    "3": {
+        "nombre": "Habas",
+        "descripcion": "Sopa a base de habas guisadas, acompañada de germen de soya y pan (vv)",
+        "precio": "$99"
+    }
+}

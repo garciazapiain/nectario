@@ -1,0 +1,65 @@
+{
+    "1": {
+        "nombre": "Salmón al Papilote",
+        "descripcion": "Envuelto en hoja de espinacas y aromatizado con finas hierbas. Acompañado de arroz al vapor y piña grillada.",
+        "precio": "$339"
+    },
+    "2": {
+        "nombre": "Pollo al Curry",
+        "descripcion": "Con almendras, cacahuates y pasas rubias. Acompañado de arroz al vapor (o)",
+        "precio": "$249"
+    },
+    "3": {
+        "nombre": "Falafel",
+        "descripcion": "En pan pita, hojas de espinaca, aderezado con hummus, crema de pimiento, berenjena y tzatziki",
+        "precio": "$175"
+    },
+    "4": {
+        "nombre": "Pizza Jamón Serrano",
+        "descripcion": "Jamón serrano, queso feta, albahaca, tomate, deshidratado y aceitunas negras (i)",
+        "precio": "",
+        "extras":{
+            "1":"Personal $219 - Grande $319"
+        }
+    },
+    "5": {
+        "nombre": "Pizza Vegetariana",
+        "descripcion": "Champiñones, albahaca, aceitunas negras, queso de cabra, pimientos y cebolla morada (i)",
+        "precio": "",
+        "extras":{
+            "1":"Personal $180 - Grande $285"
+        }
+    },
+    "6": {
+        "nombre": "Pizza Tuna",
+        "descripcion": "Atún sellado, cebolla morada, cilantro, chile serrano, salsa de soya, ajonjolí tostado, orilla de almendra y finas hierbas (i)",
+        "precio": "",
+        "extras":{
+            "1":"Personal $229 - Grande $389"
+        }
+    },
+    "7": {
+        "nombre": "Tuna Luna",
+        "descripcion": "Atún fresco, mango, láminas de serrano y aguacate. Aderezado con soya y ajonjolí. Servido sobre deliciosas tostadas",
+        "precio": "$179"
+    },
+    "8": {
+        "nombre": "Tuna Sol",
+        "descripcion": "Atún a la parrilla, ensalada tibia de quínoa y calabacita, encurtido de cebolla y col. Marinado a la talla",
+        "precio": "$259"
+    },
+    "9": {
+        "nombre": "Poke Bowl",
+        "descripcion": "Cubos de atún fresco y aguacate marinados en salsa de soya y cítricos. Base de arroz y alga",
+        "precio": "$249"
+    },
+    "10": {
+        "nombre": "Veggie Noodles",
+        "descripcion": "Fideos udon acompañados de hortalizas, salteadas con aceite de ajonjolí tostado, soya y un toque de picante",
+        "precio": "$220",
+        "extras":{
+            "1": "Con pollo $275",
+            "2": "Con camarón $299"
+        }
+    }
+}

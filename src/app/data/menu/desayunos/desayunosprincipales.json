@@ -1,0 +1,36 @@
+{
+    "1": {
+        "nombre":"Tamal Vegetariano",
+        "descripcion":"En hoja de plátano. Libre de grasa animal y lácteos, con guarniciones de la casa y jocoque natural",
+        "precio":"$149"
+    },
+    "2": {
+        "nombre":"Hotcakes",
+        "descripcion":"Con almendra y linaza; acompañada con fruta de temporada (vv, i)",
+        "precio":"$139"
+    },
+    "3": {
+        "nombre":"Açai Bowl",
+        "descripcion": "Mix de frutos rojos, plátano, coco, almendra, manzana y granola orgánica",
+        "precio":"$149"
+    },
+    "4": {
+        "nombre":"Avo Toast",
+        "descripcion":"Pan de granos, aguacate, albahaca y jeníbre. Acompañado de una ensalada de col morada (vv)",
+        "precio":"$139",
+        "extras":{
+            "1":"Agrega trucha salmonada + $115",
+            "2":"Agrega pollo + $80",
+            "3": "Agrega dos huevos + $18"
+        }
+    },
+    "5": {
+        "nombre": "Chilaquiles",
+        "descripcion":"Totópos en salsa verde, acompañados de varios quesos, jocoque seco y aguacate (o)",
+        "precio":"$149",
+        "extras":{
+            "1": "Agrega pollo + $80",
+            "2": "Agrega dos huevos + $18"
+        }
+    }
+}
