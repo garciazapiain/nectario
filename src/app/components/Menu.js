@@ -15,7 +15,7 @@ export default function Menu() {
     };
 
     return (
-        <main id="menu" className='h-screen'>
+        <main id="menu" className=''>
             <div className='menu'>
                 <div className='title'>
                     <h1>Menu</h1>
