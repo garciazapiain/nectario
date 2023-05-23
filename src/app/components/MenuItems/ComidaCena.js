@@ -37,6 +37,7 @@ export default function ComidaCena() {
 
     return (
         <>
+            <p className='mb-5 menuPlateTitle'>a partir de la 1 PM</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {renderMenuItems(Object.values(dataEntradas))}
             </div>

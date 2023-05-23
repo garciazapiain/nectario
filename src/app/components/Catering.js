@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import sobreNosotros from '../images/sobreNosotros.jpeg'
 
-export default function Visitanos() {
+export default function Catering() {
     return (
-        <main id="visitanos" className=''>
+        <main id="catering" className=''>
             <div className='md:hidden'>
                 <div className='title'>
-                    <h1>Visítanos</h1>
+                    <h1>Catering</h1>
                 </div>
                 <div className='flex self-center items-center justify-center justify-items-center p-5 mx-5'>
                     <div className='sobreNosotrosContentMobile'>
@@ -18,7 +18,7 @@ export default function Visitanos() {
             </div>
             <div className='hidden md:flex flex-col'>
                 <div className='title'>
-                    <h1>Visítanos</h1>
+                    <h1>Catering</h1>
                 </div>
                 <div className='flex self-center items-center justify-center justify-items-center p-5 mx-5'>
                     <div className='flex-col w-1/2 self-center mx-8'>

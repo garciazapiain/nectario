@@ -30,6 +30,7 @@ export default function Desayunos() {
 
     return (
         <>
+            <p className='mb-5 menuPlateTitle'>hasta la 1 PM</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {renderMenuItems(dataPrincipales).map((item, index) => {
                     if (index === indexDeImagenAvoToast) {

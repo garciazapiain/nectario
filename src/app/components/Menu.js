@@ -1,6 +1,4 @@
 "use client"; // This is a client component 👈🏽
-import Image from 'next/image'
-import sobreNosotros from '../images/sobreNosotros.jpeg'
 import { useState } from 'react';
 import Desayunos from './MenuItems/Desayunos'
 import ComidaCena from './MenuItems/ComidaCena'
@@ -26,26 +24,40 @@ export default function Menu() {
                             className={`tabButton ${selectedTab === 'option1' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option1')}
                         >
-                            <p>Desayunos</p><p className='text-xs'>hasta la 1 PM</p>
+                            <p>Desayunos</p>
                         </button>
                         <button
                             className={`tabButton ${selectedTab === 'option2' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option2')}
                         >
-                            <p>Comida & Cena</p><p className='text-xs'>a partir de la 1 PM</p>
+                            <p>Comida & Cena</p>
                         </button>
                         <button
                             className={`tabButton ${selectedTab === 'option3' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option3')}
                         >
-                            <p className='m-2'>Postres</p>
+                            <p>Postres</p>
                         </button>
                         <button
-                            className={`tabButton ${selectedTab === 'option4' ? 'active' : ''} h-15`}
+                            className={`tabButton ${selectedTab === 'option4' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option4')}
                         >
-                            <p className='m-2'>Bebidas</p>
+                            <p>Bebidas</p>
                         </button>
+                    </div>
+                    <div className="contentContainer p-5 mx-5">
+                        {selectedTab === 'option1' && (
+                            <Desayunos />
+                        )}
+                        {selectedTab === 'option2' && (
+                            <ComidaCena />
+                        )}
+                        {selectedTab === 'option3' && (
+                            <Postres />
+                        )}
+                        {selectedTab === 'option4' && (
+                            <Bebidas />
+                        )}
                     </div>
                     <div className='hidden md:flex justify-center'>
                         <p className='m-2'>(o) - Orgánico</p>
@@ -64,20 +76,6 @@ export default function Menu() {
                             <p className='m-2'>(i) - Integral</p>
                             <p className='m-2'>(gf) - Gluten Friendly</p>
                         </div>
-                    </div>
-                    <div className="contentContainer p-5 mx-5">
-                        {selectedTab === 'option1' && (
-                            <Desayunos />
-                        )}
-                        {selectedTab === 'option2' && (
-                            <ComidaCena />
-                        )}
-                        {selectedTab === 'option3' && (
-                            <Postres />
-                        )}
-                        {selectedTab === 'option4' && (
-                            <Bebidas />
-                        )}
                     </div>
                 </div>
             </div>

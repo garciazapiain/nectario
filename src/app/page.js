@@ -3,8 +3,9 @@ import BannerInicio from './components/BannerInicio';
 import SobreNosotros from './components/SobreNosotros';
 import Menu from './components/Menu';
 import NavBar from './components/NavBar';
-import Visitanos from './components/Visitanos';
+import Catering from './components/Catering';
 import Contacto from './components/Contacto';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       <BannerInicio/>
       <SobreNosotros/>
       <Menu/>
-      <Visitanos/>
+      <Catering/>
       <Contacto/>
+      <Footer/>
     </main>
   )
 }

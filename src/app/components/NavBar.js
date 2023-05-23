@@ -17,21 +17,6 @@ function NavBar(props) {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         const currentScrollPos = window.pageYOffset;
-    //         const isVisible = prevScrollPos > currentScrollPos;
-
-    //         setIsVisible(isVisible);
-    //         setPrevScrollPos(currentScrollPos);
-    //     };
-
-    //     window.addEventListener("scroll", handleScroll);
-    //     return () => {
-    //         window.removeEventListener("scroll", handleScroll);
-    //     };
-    // }, [prevScrollPos]);
-
     function NavItem({ href, children }) {
         return (
             <li className="mr-4">
@@ -57,7 +42,7 @@ function NavBar(props) {
                 <div className="flex w-3/4 justify-end mr-1">
                     <NavItem href="#sobrenosotros">Nosotros</NavItem>
                     <NavItem href="#menu">Menu</NavItem>
-                    <NavItem href="#visitanos">Visítanos</NavItem>
+                    <NavItem href="#catering">Catering</NavItem>
                     <NavItem href="#contacto">Contacto</NavItem>
                 </div>
             </ul>
@@ -68,7 +53,7 @@ function NavBar(props) {
                     </Link>
                 </div>
                 <button
-                    className="flex items-center text-gray-600 hover:text-gray-800 focus:outline-none"
+                    className="hamburgerMenu flex items-center focus:outline-none"
                     onClick={toggleMenu}
                 >
                     <FiMenu className="h-8 w-8 mr-4" />
@@ -79,7 +64,7 @@ function NavBar(props) {
                     <ul onClick={toggleMenu} className="navBarMobileMenu sm:hidden pl-8 text-xl">
                             <NavItem href="#sobrenosotros">Nosotros</NavItem>
                             <NavItem href="#menu">Menu</NavItem>
-                            <NavItem href="#visitanos">Visítanos</NavItem>
+                            <NavItem href="#catering">Catering</NavItem>
                             <NavItem href="#contacto">Contacto</NavItem>
                     </ul>
                 )

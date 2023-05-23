@@ -1,33 +1,45 @@
 import Image from 'next/image'
 import sobreNosotros from '../images/sobreNosotros.jpeg'
+import { BsFacebook } from "react-icons/bs"
+import { BsInstagram } from "react-icons/bs"
+import { BsWhatsapp } from "react-icons/bs"
 
 export default function Contacto() {
     return (
         <main id="contacto" className=''>
-            <div className='md:hidden'>
+            <div>
                 <div className='title'>
                     <h1>Contacto</h1>
                 </div>
-                <div className='flex self-center items-center justify-center justify-items-center p-5 mx-5'>
-                    <div className='sobreNosotrosContentMobile'>
-                        <div className='p-2'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis leo sit amet faucibus condimentum. Nam ut quam a diam sollicitudin mollis. Pellentesque a interdum ex. Nulla facilisi. Cras bibendum nisi at auctor finibus. Curabitur lobortis at ex quis gravida. In tempus, odio et cursus tempus, dolor orci vulputate odio, in egestas orci arcu sed ligula. Quisque ut fringilla eros, ultricies mattis tortor. Etiam ornare interdum massa, at viverra mauris auctor eget. Aenean ultricies magna ac lobortis sagittis. Donec ac sapien malesuada, suscipit arcu aliquet, mattis ante. Nullam efficitur et turpis eget accumsan. Aenean vel dui placerat, molestie lorem et, pretium erat. Suspendisse pretium quam vitae arcu venenatis pretium.</p>
-                        </div>
+                <div className='contactForm self-center justify-around justify-items-start px-5 mx-5'>
+                    <div className='p-2 contactFormItem'>
+                        <h3 className='menuPlateTitle'>Dirrección</h3>
+                        <p className='menuNormalText mb-4'>Paseo del Moral 400</p>
+                        <a
+                            className={'googleMapsButton'}
+                            href="https://www.google.com/maps/place/Nectario+Organic+Market/@21.1476429,-101.6904032,15z/data=!4m2!3m1!1s0x0:0x8571bf8e207d165?sa=X&ved=2ahUKEwj_8Zqv4Yv_AhWPhf0HHbGeCOEQ_BJ6BAheEAg"
+                            target="a_blank"
+                        >
+                            Google maps
+                        </a>
+                    </div>
+                    <div className='p-2 contactFormItem'>
+                        <h3 className='menuPlateTitle'>horario</h3>
+                        <p>lunes - viernes 7:30 am - 10 pm</p>
+                        <p>sábado 8:00 am - 10 pm</p>
+                        <p>domingo - 8:00 am - 8:45 pm</p>
+                    </div>
+                    <div className='p-2 contactFormItem'>
+                        <h3 className='menuPlateTitle'>contacto</h3>
+                        <a href="tel:477-390-0021">
+                            <p>tel: 477 390 0021</p>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div className='hidden md:flex flex-col'>
-                <div className='title'>
-                    <h1>Contacto</h1>
-                </div>
-                <div className='flex self-center items-center justify-center justify-items-center p-5 mx-5'>
-                    <div className='flex-col w-1/2 self-center mx-8'>
-                        <br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis leo sit amet faucibus condimentum. Nam ut quam a diam sollicitudin mollis. Pellentesque a interdum ex. Nulla facilisi. Cras bibendum nisi at auctor finibus. Curabitur lobortis at ex quis gravida. In tempus, odio et cursus tempus, dolor orci vulputate odio, in egestas orci arcu sed ligula. Quisque ut fringilla eros, ultricies mattis tortor. Etiam ornare interdum massa, at viverra mauris auctor eget. Aenean ultricies magna ac lobortis sagittis. Donec ac sapien malesuada, suscipit arcu aliquet, mattis ante. Nullam efficitur et turpis eget accumsan. Aenean vel dui placerat, molestie lorem et, pretium erat. Suspendisse pretium quam vitae arcu venenatis pretium.</p>
-                    </div>
-                    <div className='flex row w-1/2 items-center'>
-                        <Image className="mr-8" src={sobreNosotros} alt="Sobre Nosotros - Nectario"></Image>
-                    </div>
+                <div className='flex mb-5 justify-center align-center'>
+                    <a href=" https://api.whatsapp.com/send?phone=524778508037" target="_blank"><BsWhatsapp className='mx-3 h-8 w-8'/></a>
+                    <a href="https://www.facebook.com/profile.php?id=100054607682526" target="_blank"><BsFacebook className='mx-3 h-8 w-8'/></a>
+                    <a href="https://www.instagram.com/nectariomarket/?hl=en" target="_blank"><BsInstagram className='mx-3 h-8 w-8'/></a>
                 </div>
             </div>
         </main>
