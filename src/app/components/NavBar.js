@@ -11,24 +11,26 @@ function NavBar(props) {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    console.log(isMenuOpen)
+
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const currentScrollPos = window.pageYOffset;
-            const isVisible = prevScrollPos > currentScrollPos;
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const currentScrollPos = window.pageYOffset;
+    //         const isVisible = prevScrollPos > currentScrollPos;
 
-            setIsVisible(isVisible);
-            setPrevScrollPos(currentScrollPos);
-        };
+    //         setIsVisible(isVisible);
+    //         setPrevScrollPos(currentScrollPos);
+    //     };
 
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, [prevScrollPos]);
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => {
+    //         window.removeEventListener("scroll", handleScroll);
+    //     };
+    // }, [prevScrollPos]);
 
     function NavItem({ href, children }) {
         return (
@@ -74,7 +76,7 @@ function NavBar(props) {
             </div>
             {
                 isMenuOpen && (
-                    <ul className="navBarMobileMenu sm:hidden pl-8 text-xl">
+                    <ul onClick={toggleMenu} className="navBarMobileMenu sm:hidden pl-8 text-xl">
                             <NavItem href="#sobrenosotros">Nosotros</NavItem>
                             <NavItem href="#menu">Menu</NavItem>
                             <NavItem href="#visitanos">Visítanos</NavItem>

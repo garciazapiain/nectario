@@ -38,7 +38,7 @@ body {
   border: #042004 solid 5px;
   color:#042004;
   padding-left: 3rem;
-  height: 25vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +60,7 @@ body {
 .title{
   width: 100%;
   height: 20%;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   font-size: 4.5rem;
   font-weight: 600;
   margin-top: 2rem;
@@ -69,6 +69,7 @@ body {
 @media (max-width: 767px) {
   .title{
     font-size: 2.5rem;
+    padding-top: 5.5rem;
   }
 }
 
