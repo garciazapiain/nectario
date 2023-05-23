@@ -25,7 +25,7 @@ export default function Bebidas() {
 
     return (
         <>
-            <div className='mt-5 mb-2'>
+            <div className='mb-2'>
                 <h2 className='plateSubseccionTitle'>Jugos Cold Press(v)</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

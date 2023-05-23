@@ -74,11 +74,11 @@ function NavBar(props) {
             </div>
             {
                 isMenuOpen && (
-                    <ul className="sm:hidden pl-8 mb-3">
-                        <NavItem href="#sobrenosotros">Nosotros</NavItem>
-                        <NavItem href="#menu">Menu</NavItem>
-                        <NavItem href="#visitanos">Visítanos</NavItem>
-                        <NavItem href="#contacto">Contacto</NavItem>
+                    <ul className="navBarMobileMenu flex-col sm:hidden pl-8 leading-7 text-xl">
+                            <NavItem href="#sobrenosotros">Nosotros</NavItem>
+                            <NavItem href="#menu">Menu</NavItem>
+                            <NavItem href="#visitanos">Visítanos</NavItem>
+                            <NavItem href="#contacto">Contacto</NavItem>
                     </ul>
                 )
             }

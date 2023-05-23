@@ -28,9 +28,15 @@ body {
 }
 
 .navBar{
-  height: 8vh;
+  height: 10vh;
   color: #ffe0d3;
   background: #042004;
+}
+
+.navBarMobileMenu{
+  background-color: #ffe0d3;
+  color:#042004;
+  padding-left: 3rem;
 }
 
 .logoNavBar{
@@ -127,7 +133,7 @@ body {
 
 .sobreNosotrosContentMobile{
   background-image: url('./images/sobreNosotros.jpeg');
-  width: 80%;
+  width: 95%;
   padding: 1rem;
 }
 
