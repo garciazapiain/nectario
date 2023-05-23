@@ -1,0 +1,42 @@
+{
+    "1": {
+        "nombre": "Green Lemonade",
+        "descripcion": "Pepino, espinacas, manzana y limón",
+        "precio": "$99"
+    },
+    "2": {
+        "nombre": "Tummy Tamer",
+        "descripcion": "Manzana, menta y pepino",
+        "precio": "$99"
+    },
+    "3": {
+        "nombre": "Mood Lifter",
+        "descripcion": "Zanahoria, albahaca y betabel",
+        "precio": "$99"
+    },
+    "4": {
+        "nombre": "Kale Country",
+        "descripcion": "Kale, zanahoria y betabel",
+        "precio": "$99"
+    },
+    "5": {
+        "nombre": "Hangover Fix",
+        "descripcion": "Apio, espinaca y naranja",
+        "precio": "$99"
+    },
+    "6": {
+        "nombre": "Pineapple Digestif",
+        "descripcion": "Piña, jengibre y papaya",
+        "precio": "$99"
+    },
+    "7": {
+        "nombre": "Pinky Lemon",
+        "descripcion": "Uva roja, fresa y sandía",
+        "precio": "$99"
+    },
+    "8": {
+        "nombre": "Jugo de naranja",
+        "descripcion": "",
+        "precio": "$99"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "1": {
+        "nombre": "Stella Artois",
+        "precio": "$65"
+    },
+    "2": {
+        "nombre": "Victoria",
+        "precio": "$40"
+    },
+    "3": {
+        "nombre": "Ultra",
+        "precio": "$65"
+    },
+    "4": {
+        "nombre": "Corona",
+        "precio": "$40"
+    },
+    "5": {
+        "nombre": "Corona Light",
+        "precio": "$40"
+    },
+    "6": {
+        "nombre": "Heineken",
+        "precio": "$65"
+    },
+    "7": {
+        "nombre": "Cerveza Artesanal",
+        "precio": "$85"
+    },
+    "8": {
+        "nombre": "Clamato Preparado",
+        "xprecio":"$40"
+    }
+}

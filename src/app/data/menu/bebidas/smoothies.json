@@ -1,0 +1,32 @@
+{
+    "1": {
+        "nombre": "Super Alpha Vanilla",
+        "descripcion": "Leche de almendram coco, plátano, dátil, vainilla, chía y canelan (vv)",
+        "precio": "$99"
+    },
+    "2": {
+        "nombre": "Apple Tackle",
+        "descripcion": "Manzana verde, albahaca y miel (v)",
+        "precio": "$99"
+    },
+    "3": {
+        "nombre": "Detox Smoothie",
+        "descripcion": "Pepino, zarzamora, agua de coco, chía y miel (vv)",
+        "precio": "$99"
+    },
+    "4": {
+        "nombre": "Mango Tango",
+        "descripcion": "Mango, fresa, piña, jugo de naranja (vv)",
+        "precio": "$99"
+    },
+    "5": {
+        "nombre": "Tropical Skin Cleanser",
+        "descripcion": "Espinaca, agua de coco, piña y aguacate (vv)",
+        "precio": "$99"
+    },
+    "6": {
+        "nombre": "Pre-Workout",
+        "descripcion": "Espinaca, leche de almendras, manzana, avena, aceite de coco, plátano y canela (vv)",
+        "precio": "$99"
+    }
+}

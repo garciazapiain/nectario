@@ -1,0 +1,54 @@
+{
+    "1": {
+        "nombre": "Café Americano",
+        "precio": "$35"
+    },
+    "2": {
+        "nombre": "Coffee & Refill",
+        "precio": "hasta las 12pm $55"
+    },
+    "3": {
+        "nombre": "Espresso",
+        "precio": "Sencillo $35 Doble $50"
+    },
+    "4": {
+        "nombre": "Capuccino",
+        "precio": "$55"
+    },
+    "5": {
+        "nombre": "Golden Milk",
+        "precio": "$85"
+    },
+    "6": {
+        "nombre": "Chocolate Cliente",
+        "precio": "$65"
+    },
+    "7": {
+        "nombre": "Chai Latte Vainilla",
+        "precio": "$99"
+    },
+    "8": {
+        "nombre": "Matcha Japonés",
+        "precio": "$99"
+    },
+    "9": {
+        "nombre": "Matcha Orgánico",
+        "precio": "$99"
+    },
+    "10": {
+        "nombre": "Matcha Doble o Frappé",
+        "precio": "$99"
+    },
+    "11": {
+        "nombre": "Té 1 Ingrediente",
+        "precio": "$40"
+    },
+    "12": {
+        "nombre": "Té 2 Ingredientes",
+        "precio": "$59"
+    },
+    "13": {
+        "nombre": "Tizanas & Infusiones",
+        "precio": "$69"
+    }
+}

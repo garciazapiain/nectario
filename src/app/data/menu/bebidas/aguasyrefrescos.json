@@ -1,0 +1,50 @@
+{
+    "1": {
+        "nombre": "Agua del día",
+        "precio": "1 litro $65 2 litros $99"
+    },
+    "2": {
+        "nombre": "Coca Cola",
+        "precio": "$35"
+    },
+    "3": {
+        "nombre": "Felix Schorle",
+        "precio": "$70"
+    },
+    "4": {
+        "nombre": "Kombucha",
+        "precio": "$109"
+    },
+    "5": {
+        "nombre": "Acapulcoco Orgánica",
+        "precio": "$50"
+    },
+    "6": {
+        "nombre": "Agua de Coco Yukai",
+        "precio": "$85"
+    },
+    "7": {
+        "nombre": "Agua Evian",
+        "precio": "$60"
+    },
+    "8": {
+        "nombre": "Agua Fiji",
+        "precio": "$90"
+    },
+    "9": {
+        "nombre": "Agua Perrier",
+        "precio": "335ml $60 750ml $130"
+    },
+    "10": {
+        "nombre": "San Pellegrino Mineral",
+        "precio": "250ml $50 505ml $85"
+    },
+    "11": {
+        "nombre": "San Pellegrino Sabor",
+        "precio": "$60"
+    },
+    "12": {
+        "nombre": "Topochico Mineral",
+        "precio": "335ml $50 750ml $119"
+    }
+}

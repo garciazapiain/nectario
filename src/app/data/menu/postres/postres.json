@@ -1,0 +1,42 @@
+{
+    "1": {
+        "nombre": "Helado de Chai",
+        "descripcion": "Cremoso helado chai de la casa",
+        "precio": "$89"
+    },
+    "2": {
+        "nombre": "Panquecito de Elote",
+        "descripcion": "Con frutos rojos y canela (o)",
+        "precio": "$69"
+    },
+    "3": {
+        "nombre": "Pay de Manzana",
+        "descripcion": "Crust de avena, endulzado cona azúcar de coco (gf, o, vv)",
+        "precio": "$119"
+    },
+    "4": {
+        "nombre": "Coconut Red Velvet",
+        "descripcion": "Pastelito de coco, betabel y cacao (o)",
+        "precio": "$69"
+    },
+    "5": {
+        "nombre": "Choco French",
+        "descripcion": "Helado de chocolate y cacao nibs a base de leche de coco (vv)",
+        "precio": "$109"
+    },
+    "6": {
+        "nombre": "Galleta Choco Menta",
+        "descripcion": "Harina de almendra y avena, leche de avena, azúcar de coco, chocolate y menta (vv)",
+        "precio": "$99"
+    },
+    "7": {
+        "nombre": "Panqué de Avellana",
+        "descripcion": "A base de harina de avellana, harina de almendra, chocolate y azúcar mascabado (vv)",
+        "precio": "$129"
+    },
+    "8": {
+        "nombre": "Budín de Quinoa",
+        "descripcion": "A base de quinoa con coco tostado, frutos rojos y chispas de chocolate",
+        "precio": "$109"
+    }
+}

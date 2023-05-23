@@ -1,0 +1,26 @@
+{
+    "1": {
+        "nombre": "Tinto de la Casa",
+        "precio": "Copa $99 Botella $349"
+    },
+    "2": {
+        "nombre": "Tinto 3V",
+        "precio": "Copa $199 Botella $769"
+    },
+    "3": {
+        "nombre": "Rosado",
+        "precio": "Copa $155 Botella $599"
+    },
+    "4": {
+        "nombre": "Blanco",
+        "precio": "Copa $110 Botella $389"
+    },
+    "5": {
+        "nombre": "Carajillo ",
+        "precio": "$135"
+    },
+    "6": {
+        "nombre": "Aperol Spritz",
+        "precio": "$179"
+    }
+}

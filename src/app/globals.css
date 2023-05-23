@@ -28,7 +28,7 @@ body {
 }
 
 .navBar{
-  height: 7vh;
+  height: 8vh;
   color: #ffe0d3;
   background: #042004;
 }
@@ -37,15 +37,9 @@ body {
   scale: 50%;
 }
 
-@media (max-width: 590px) {
-  .logoNavBar{
-    scale: 75%;
-  }
-}
-
 @media (max-width: 450px) {
   .logoNavBar{
-    scale: 200%;
+    scale: 60%;
     margin-left: 1rem;
   }
 }
