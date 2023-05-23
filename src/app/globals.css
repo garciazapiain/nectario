@@ -195,7 +195,6 @@ body {
 
 @media (max-width: 610px) {
   .contactFormItem{
-    width: 60%;
     padding: 1rem 0;
   }
 }
