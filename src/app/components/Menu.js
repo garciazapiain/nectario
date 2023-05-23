@@ -17,7 +17,7 @@ export default function Menu() {
     return (
         <main id="menu" className=''>
             <div className='menu'>
-                <div className='title'>
+                <div className='menutitle'>
                     <h1>Menu</h1>
                 </div>
                 <div className='flex-col self-center items-center justify-center justify-items-center'>
