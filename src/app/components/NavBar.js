@@ -74,7 +74,7 @@ function NavBar(props) {
             </div>
             {
                 isMenuOpen && (
-                    <ul className="navBarMobileMenu flex-col sm:hidden pl-8 leading-7 text-xl">
+                    <ul className="navBarMobileMenu sm:hidden pl-8 text-xl">
                             <NavItem href="#sobrenosotros">Nosotros</NavItem>
                             <NavItem href="#menu">Menu</NavItem>
                             <NavItem href="#visitanos">Visítanos</NavItem>
