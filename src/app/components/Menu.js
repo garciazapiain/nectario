@@ -21,31 +21,49 @@ export default function Menu() {
                     <h1>Menu</h1>
                 </div>
                 <div className='flex-col self-center items-center justify-center justify-items-center'>
-                    <div className="grid grid-cols-2 md:flex p-5 justify-around">
+                    <div className="grid grid-cols-2 md:flex p-3 justify-around">
                         <button
-                            className={`tabButton ${selectedTab === 'option1' ? 'active' : ''} mx-5`}
+                            className={`tabButton ${selectedTab === 'option1' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option1')}
                         >
-                            Desayunos
+                            <p>Desayunos</p><p className='text-xs'>hasta la 1 PM</p>
                         </button>
                         <button
                             className={`tabButton ${selectedTab === 'option2' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option2')}
                         >
-                            Comida & Cena
+                            <p>Comida & Cena</p><p className='text-xs'>a partir de la 1 PM</p>
                         </button>
                         <button
                             className={`tabButton ${selectedTab === 'option3' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option3')}
                         >
-                            Postres
+                            <p className='m-2'>Postres</p>
                         </button>
                         <button
-                            className={`tabButton ${selectedTab === 'option4' ? 'active' : ''}`}
+                            className={`tabButton ${selectedTab === 'option4' ? 'active' : ''} h-15`}
                             onClick={() => handleTabClick('option4')}
                         >
-                            Bebidas
+                            <p className='m-2'>Bebidas</p>
                         </button>
+                    </div>
+                    <div className='hidden md:flex justify-center'>
+                        <p className='m-2'>(o) - Orgánico</p>
+                        <p className='m-2'>(v) - Vegetariano</p>
+                        <p className='m-2'>(vv) - Vegano</p>
+                        <p className='m-2'>(i) - Integral</p>
+                        <p className='m-2'>(gf) - Gluten Friendly</p>
+                    </div>
+                    <div className='md:hidden flex-col'>
+                        <div className='flex justify-center'>
+                            <p className='m-2'>(o) - Orgánico</p>
+                            <p className='m-2'>(v) - Vegetariano</p>
+                            <p className='m-2'>(vv) - Vegano</p>
+                        </div>
+                        <div className='flex justify-center'>
+                            <p className='m-2'>(i) - Integral</p>
+                            <p className='m-2'>(gf) - Gluten Friendly</p>
+                        </div>
                     </div>
                     <div className="contentContainer p-5 mx-5">
                         {selectedTab === 'option1' && (
