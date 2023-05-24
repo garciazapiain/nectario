@@ -40,9 +40,9 @@ function NavBar(props) {
                     </Link>
                 </div>
                 <div className="flex w-3/4 justify-end mr-1">
-                    <NavItem href="#sobrenosotros">Nosotros</NavItem>
                     <NavItem href="#menu">Menu</NavItem>
                     <NavItem href="#catering">Catering</NavItem>
+                    <NavItem href="#sobrenosotros">Nosotros</NavItem>
                     <NavItem href="#contacto">Contacto</NavItem>
                 </div>
             </ul>
@@ -56,15 +56,15 @@ function NavBar(props) {
                     className="hamburgerMenu flex items-center focus:outline-none"
                     onClick={toggleMenu}
                 >
-                    <FiMenu className="h-8 w-8 mr-4" />
+                    {isMenuOpen ? 'x' : <FiMenu className="h-8 w-8 mr-4" />}
                 </button>
             </div>
             {
                 isMenuOpen && (
                     <ul onClick={toggleMenu} className="navBarMobileMenu sm:hidden pl-8 text-xl">
-                            <NavItem href="#sobrenosotros">Nosotros</NavItem>
                             <NavItem href="#menu">Menu</NavItem>
                             <NavItem href="#catering">Catering</NavItem>
+                            <NavItem href="#sobrenosotros">Nosotros</NavItem>
                             <NavItem href="#contacto">Contacto</NavItem>
                     </ul>
                 )

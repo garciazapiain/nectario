@@ -45,7 +45,7 @@ export default function Bebidas() {
                 <div>
                     <h2 className='plateSubseccionTitle'>Café y Té</h2>
                     {renderMenuItemsInlinePrice(Object.values(dataCafeYTe))}
-                    <p className='pt-2 pl-4 text-sm italic'>*con leche vegetal + $15</p>
+                    <p className='pt-2 pl-4 text-sm menuNormalText italic'>*con leche vegetal + $15</p>
                 </div>
                 <div>
                     <h2 className='plateSubseccionTitle'>Cerveza</h2>

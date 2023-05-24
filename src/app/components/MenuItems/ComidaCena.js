@@ -37,7 +37,7 @@ export default function ComidaCena() {
 
     return (
         <>
-            <p className='mb-5 menuPlateTitle'>a partir de la 1 PM</p>
+            <p className='mb-5 menuNormalText italic'>a partir de la 1 PM</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {renderMenuItems(Object.values(dataEntradas))}
             </div>
@@ -75,7 +75,7 @@ export default function ComidaCena() {
                             <React.Fragment key="imageFragment">
                                 <div>
                                     <Image src={pizza} alt="Dibujo de pizza" width={200} height={200} />
-                                    <p className='pt-2 pl-4 text-sm italic'>*Todas nuestras pizzas las elaboramos con harina integral.</p>
+                                    <p className='pt-2 pl-4 text-sm menuNormalText italic'>*Todas nuestras pizzas las elaboramos con harina integral.</p>
                                 </div>
                                 {item}
                             </React.Fragment>

@@ -12,9 +12,9 @@ export default function Home() {
     <main>
       <NavBar/>
       <BannerInicio/>
-      <SobreNosotros/>
       <Menu/>
       <Catering/>
+      <SobreNosotros/>
       <Contacto/>
       <Footer/>
     </main>

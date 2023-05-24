@@ -37,12 +37,13 @@ body {
   background-color: #265637;
   color:#ffe0d3; 
   padding-left: 3rem;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 3rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 8rem;
+  font-size: 40px;
 }
 
 .hamburgerMenu{
