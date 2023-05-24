@@ -4,6 +4,7 @@ import Link from "next/link";
 import logo from "../images/logo2.png"
 import Image from 'next/image'
 import { FiMenu } from "react-icons/fi"
+import { AiOutlineClose } from "react-icons/ai"
 
 function NavBar(props) {
     const [isVisible, setIsVisible] = useState(true);
@@ -56,7 +57,7 @@ function NavBar(props) {
                     className="hamburgerMenu flex items-center focus:outline-none"
                     onClick={toggleMenu}
                 >
-                    {isMenuOpen ? 'x' : <FiMenu className="h-8 w-8 mr-4" />}
+                    {isMenuOpen ? <AiOutlineClose className="h-8 w-8 mr-4"/> : <FiMenu className="h-8 w-8 mr-4" />}
                 </button>
             </div>
             {
