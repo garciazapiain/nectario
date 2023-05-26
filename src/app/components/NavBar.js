@@ -1,7 +1,7 @@
 "use client"; // This is a client component 👈🏽
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import logo from "../images/logo2.png"
+import logo from "../images/logo/logo2.png"
 import Image from 'next/image'
 import { FiMenu } from "react-icons/fi"
 import { AiOutlineClose } from "react-icons/ai"

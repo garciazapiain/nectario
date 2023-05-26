@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '../images/logo1.png'
+import logo from '../images/logo/logo1.png'
 
 export default function BannerInicio() {
   return (

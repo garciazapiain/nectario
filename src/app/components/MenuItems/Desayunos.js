@@ -1,4 +1,4 @@
-import desayuno from '../../images/desayuno.png'
+import desayuno from '../../images/menu/desayuno.png'
 import Image from 'next/image'
 import dataPrincipales from '../../data/menu/desayunos/desayunosprincipales.json'
 import dataOmelettes from '../../data/menu/desayunos/omelettes.json';

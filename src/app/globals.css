@@ -99,7 +99,7 @@ body {
 .bannerContainerSection1 {
   height: 100%;
   width: 60%;
-  background-image: url('./images/plantas.png')
+  background-image: url('./images/bannerinicio/plantas.png')
 }
 
 .bannerContainerSection2 {
@@ -115,7 +115,7 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
-  background-image: url('./images/plantas.png')
+  background-image: url('./images/bannerinicio/plantas.png')
 }
 
 .bannerContainerMobileSection2 {
@@ -140,7 +140,7 @@ body {
 }
 
 .sobreNosotrosContentMobile{
-  background-image: url('./images/sobreNosotros.jpeg');
+  background-image: url('./images/sobrenosotros/sobreNosotros.jpeg');
   width: 95%;
   padding: 1rem;
 }
@@ -213,6 +213,11 @@ body {
 }
 
 .footer{
-  height: 10rem;
+  height: 10vh;
   background-color: #ffe0d3;
+}
+
+.footer > p {
+  font-size: 0.5rem;
+  color: ;
 }

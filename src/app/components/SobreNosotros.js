@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import sobreNosotros from '../images/sobreNosotros.jpeg'
+import sobreNosotros from '../images/sobrenosotros/sobreNosotros.jpeg'
 
 export default function SobreNosotros() {
     return (

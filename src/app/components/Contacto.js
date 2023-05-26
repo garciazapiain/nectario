@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import sobreNosotros from '../images/sobreNosotros.jpeg'
 import { BsFacebook } from "react-icons/bs"
 import { BsInstagram } from "react-icons/bs"
 import { BsWhatsapp } from "react-icons/bs"
