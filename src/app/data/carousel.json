@@ -1,0 +1,25 @@
+
+{
+    "items": {
+        "responsive": [
+            {
+                "id": 1,
+                "title": "Swiper Carousel Example",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+                "imageUrl": "https://scontent.fprg4-1.fna.fbcdn.net/v/t31.18172-8/23215700_2068515586713200_8472291557798357770_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=55iqYuKXzFYAX9Abmy-&_nc_ht=scontent.fprg4-1.fna&oh=00_AfAN0-_nvng1CJBhHXdn3XVTqp1S9vG9a6AZxJpIKaVXog&oe=649C2B95"
+            },
+            {
+                "id": 2,
+                "title": "Swiper Carousel Example",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+                "imageUrl": "https://scontent.fprg4-1.fna.fbcdn.net/v/t31.18172-8/24130511_2079796072251818_642740076039961685_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Ba3h65KzWIcAX9oNFic&_nc_ht=scontent.fprg4-1.fna&oh=00_AfANhSxPlvmhCIG0jMqcgJ1nqpK4elY6MuKknjDw57wl9Q&oe=649C119A"
+            },
+            {
+                "id": 3,
+                "title": "Swiper Carousel Example",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+                "imageUrl": "https://scontent.fprg4-1.fna.fbcdn.net/v/t31.18172-8/26910409_2111098169121608_190995230952990063_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=95lN0xlDAfkAX9t6g1k&_nc_ht=scontent.fprg4-1.fna&oh=00_AfDylKgzxvRsqslLbDcuD3t8SxY7nlq4pGjAcaK2HSF7vA&oe=649C27B5"
+            }
+        ]
+    }
+}

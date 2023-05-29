@@ -1,33 +1,50 @@
-import Image from 'next/image'
-import sobreNosotros from '../images/sobrenosotros/sobreNosotros.jpeg'
+"use client"; // This is a client component 👈🏽
+import React, {useState, useEffect} from "react";
+import { Carousel } from 'react-responsive-carousel';
+import { items } from "../data/carousel.json";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Catering() {
+    const { responsive } = items;
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const nextSlide = (currentSlide + 1) % responsive.length;
+            setCurrentSlide(nextSlide);
+        }, 5000);
+
+        return () => {
+            clearInterval(interval);
+        };
+    }, [currentSlide, responsive.length])
+
     return (
-        <main id="catering" className=''>
-            <div className='md:hidden'>
+        <main id="catering" className='catering-main'> {/* Add the class name 'catering-main' */}
+            <div>
                 <div className='title'>
                     <h1>Catering</h1>
                 </div>
-                <div className='flex self-center items-center justify-center justify-items-center p-5 mx-5'>
-                    <div className='sobreNosotrosContentMobile'>
-                        <div className='p-2'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis leo sit amet faucibus condimentum. Nam ut quam a diam sollicitudin mollis. Pellentesque a interdum ex. Nulla facilisi. Cras bibendum nisi at auctor finibus. Curabitur lobortis at ex quis gravida. In tempus, odio et cursus tempus, dolor orci vulputate odio, in egestas orci arcu sed ligula. Quisque ut fringilla eros, ultricies mattis tortor. Etiam ornare interdum massa, at viverra mauris auctor eget. Aenean ultricies magna ac lobortis sagittis. Donec ac sapien malesuada, suscipit arcu aliquet, mattis ante. Nullam efficitur et turpis eget accumsan. Aenean vel dui placerat, molestie lorem et, pretium erat. Suspendisse pretium quam vitae arcu venenatis pretium.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='hidden md:flex flex-col'>
-                <div className='title'>
-                    <h1>Catering</h1>
-                </div>
-                <div className='flex self-center items-center justify-center justify-items-center p-5 mx-5'>
-                    <div className='flex-col w-1/2 self-center mx-8'>
-                        <br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis leo sit amet faucibus condimentum. Nam ut quam a diam sollicitudin mollis. Pellentesque a interdum ex. Nulla facilisi. Cras bibendum nisi at auctor finibus. Curabitur lobortis at ex quis gravida. In tempus, odio et cursus tempus, dolor orci vulputate odio, in egestas orci arcu sed ligula. Quisque ut fringilla eros, ultricies mattis tortor. Etiam ornare interdum massa, at viverra mauris auctor eget. Aenean ultricies magna ac lobortis sagittis. Donec ac sapien malesuada, suscipit arcu aliquet, mattis ante. Nullam efficitur et turpis eget accumsan. Aenean vel dui placerat, molestie lorem et, pretium erat. Suspendisse pretium quam vitae arcu venenatis pretium.</p>
-                    </div>
-                    <div className='flex row w-1/2 items-center'>
-                        <Image className="mr-8" src={sobreNosotros} alt="Sobre Nosotros - Nectario"></Image>
-                    </div>
+                <div>
+                    <Carousel
+                        showArrows={true}
+                        showIndicators={true}
+                        infiniteLoop={true}
+                        dynamicHeight={false}
+                        selectedItem={currentSlide}
+                    >
+                        {responsive.map((item) => (
+                            <div key={item.id} className="carousel-item"> {/* Add the class name 'carousel-item' */}
+                                <div>
+                                    <img src={item.imageUrl} alt="slides" />
+                                </div>
+                                <div>
+                                    <h2>{item.title}</h2>
+                                    <p>{item.text}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </Carousel>
                 </div>
             </div>
         </main>
