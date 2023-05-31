@@ -25,7 +25,7 @@ export default function Catering() {
                 <div className='title'>
                     <h1>Catering</h1>
                 </div>
-                <div>
+                <div className="slider-container">
                     <Carousel
                         showArrows={true}
                         showIndicators={true}
