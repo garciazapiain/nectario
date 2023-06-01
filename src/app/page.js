@@ -9,18 +9,18 @@ import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 import Loading from './components/Loading';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
+  const router = useRouter();
 
   useEffect(() => {
-    // Simulate loading for 3 seconds
-    const timer = setTimeout(() => {
+    if (router){
       setIsLoading(false);
-    }, 1000);
+    }
+  }, [router]);
 
-    return () => clearTimeout(timer);
-  }, []);
   return (
     <main>
       {isLoading ? (
@@ -37,5 +37,5 @@ export default function Home() {
         </>
       )}
     </main>
-  )
+  );
 }
