@@ -17,7 +17,9 @@ export default function Home() {
 
   useEffect(() => {
     if (router){
-      setIsLoading(false);
+      setTimeout(()=>{
+        setIsLoading(false);
+      },500)
     }
   }, [router]);
 
