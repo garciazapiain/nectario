@@ -284,3 +284,8 @@ body {
   width: 2rem;
   margin-right: .2rem;
 }
+
+.loading{
+  height: 100vh;
+  background-color: red;
+}
