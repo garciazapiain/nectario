@@ -1,7 +1,7 @@
 "use client"; // This is a client component 👈🏽
 import { useState } from "react";
 import Link from "next/link";
-import logo from "../images/logo/logo2.png";
+import logo from "../images/logo/logo3.png";
 import Image from 'next/image';
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -32,7 +32,7 @@ function NavBar(props) {
     >
       <ul className="navBar pr-1 hidden sm:flex items-center justify-around font-medium backdrop-blur">
         <div className="flex">
-          <Link className="w-1/4" href="#inicio" >
+          <Link className="w-1/3" href="#inicio" >
             <Image className="logoNavBar" src={logo} />
           </Link>
         </div>
@@ -45,7 +45,7 @@ function NavBar(props) {
       </ul>
       <div className="sm:hidden flex navBar justify-around">
         <div className="flex items-center">
-          <Link className="w-1/4" href="#inicio" >
+          <Link className="w-1/3" href="#inicio" >
             <Image className="logoNavBar" src={logo} />
           </Link>
         </div>
