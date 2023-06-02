@@ -9,7 +9,7 @@ export default function Contacto() {
                 <div className='title'>
                     <h1>Contacto</h1>
                 </div>
-                <div className='contactForm self-center justify-around justify-items-start px-5 mx-5'>
+                <div className='contactForm self-center justify-around justify-items-start'>
                     <div className='p-2 contactFormItem'>
                         <h3 className='menuPlateTitle'>Dirrección</h3>
                         <p className='menuNormalText mb-4'>Paseo del Moral 400</p>

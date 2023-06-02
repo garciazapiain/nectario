@@ -15,11 +15,11 @@ export default function Menu() {
     return (
         <main id="menu" className=''>
             <div className='menu'>
-                <div className='menutitle'>
+                <div className='title'>
                     <h1>Menu</h1>
                 </div>
                 <div className='flex-col self-center items-center justify-center justify-items-center'>
-                    <div className="grid grid-cols-2 md:flex p-3 justify-around">
+                    <div className="grid grid-cols-2 md:flex m-3 justify-around">
                         <button
                             className={`tabButton ${selectedTab === 'option1' ? 'active' : ''}`}
                             onClick={() => handleTabClick('option1')}
@@ -45,7 +45,7 @@ export default function Menu() {
                             <p>Bebidas</p>
                         </button>
                     </div>
-                    <div className="contentContainer p-5 mx-5">
+                    <div className="contentContainer m-4">
                         {selectedTab === 'option1' && (
                             <Desayunos />
                         )}
@@ -59,20 +59,20 @@ export default function Menu() {
                             <Bebidas />
                         )}
                     </div>
-                    <div className='hidden md:flex justify-center'>
+                    <div className='hidden md:flex justify-center m-4'>
                         <p className='m-2'>(o) - Orgánico</p>
                         <p className='m-2'>(v) - Vegetariano</p>
                         <p className='m-2'>(vv) - Vegano</p>
                         <p className='m-2'>(i) - Integral</p>
                         <p className='m-2'>(gf) - Gluten Friendly</p>
                     </div>
-                    <div className='md:hidden flex-col'>
+                    <div className='md:hidden flex-col m-4'>
                         <div className='flex justify-center'>
                             <p className='m-2'>(o) - Orgánico</p>
                             <p className='m-2'>(v) - Vegetariano</p>
                             <p className='m-2'>(vv) - Vegano</p>
                         </div>
-                        <div className='flex justify-center'>
+                        <div className='flex justify-center m-4'>
                             <p className='m-2'>(i) - Integral</p>
                             <p className='m-2'>(gf) - Gluten Friendly</p>
                         </div>
