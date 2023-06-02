@@ -5,7 +5,7 @@ import { BsWhatsapp } from "react-icons/bs"
 export default function Contacto() {
     return (
         <main id="contacto" className=''>
-            <div>
+            <div className='h-screen md:h-full'>
                 <div className='title'>
                     <h1>Contacto</h1>
                 </div>
