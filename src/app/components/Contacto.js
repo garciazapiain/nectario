@@ -11,8 +11,9 @@ export default function Contacto() {
                 </div>
                 <div className='contactForm self-center justify-around justify-items-start'>
                     <div className='p-2 contactFormItem'>
-                        <h3 className='menuPlateTitle'>Dirrección</h3>
-                        <p className='menuNormalText mb-4'>Paseo del Moral 400</p>
+                        <h3 className='menuPlateTitle'>Dirección</h3>
+                        <p>Av Paseo del Moral 400, Colonia Jardines del Moral</p>
+                        <p className='mb-4'>León, Guanajuato, Mexico</p>
                         <a
                             className={'googleMapsButton'}
                             href="https://www.google.com/maps/place/Nectario+Organic+Market/@21.1476429,-101.6904032,15z/data=!4m2!3m1!1s0x0:0x8571bf8e207d165?sa=X&ved=2ahUKEwj_8Zqv4Yv_AhWPhf0HHbGeCOEQ_BJ6BAheEAg"
