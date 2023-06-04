@@ -316,7 +316,6 @@ body {
 }
 
 .banner2{
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -335,7 +334,6 @@ body {
 
 .slider-container-banner2{
   position: relative;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }

@@ -12,6 +12,7 @@ import tunapoke from '../images/banner2/tunapoke.jpeg'
 import dogFriendly from '../images/banner2/dogfriendly.jpeg'
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
+import Link from "next/link";
 
 
 export default function Banner2() {
@@ -92,7 +93,9 @@ export default function Banner2() {
                         ))}
                     </Carousel>
                 </div>
-                <IoIosArrowDown onClick={scrollToMenu} className="arrow-down-banner"/>
+                <Link href="#menu">
+                    <IoIosArrowDown onClick={scrollToMenu} className="arrow-down-banner"/>
+                </Link>
             </div>
         </main>
     )
