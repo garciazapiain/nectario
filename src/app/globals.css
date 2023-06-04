@@ -16,8 +16,12 @@
   }
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 body {
-  /* width: fit-content; */
   color: #ffe0d3;
   background: #042004;
 }
@@ -53,12 +57,12 @@ body {
 }
 
 .logoNavBar {
-  scale: 50%;
+  scale: 40%;
 }
 
 @media (max-width: 450px) {
   .logoNavBar {
-    scale: 60%;
+    scale: 50%;
     margin-left: -1rem;
   }
 }
@@ -321,7 +325,7 @@ body {
 }
 
 .image-container {
-  height: 75vh;
+  height: 80vh;
   width: auto;
   overflow: hidden;
 }

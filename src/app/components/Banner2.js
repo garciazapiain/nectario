@@ -16,13 +16,12 @@ import Link from "next/link";
 
 
 export default function Banner2() {
-    const { responsive } = items;
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const scrollToMenu = () => {
         const menuSection = document.getElementById("menu");
         menuSection.scrollIntoView({ behavior: "smooth" });
-      };
+    };
 
     const images = [
         {
@@ -87,15 +86,13 @@ export default function Banner2() {
                         {images.map((item) => (
                             <div key={item.id} className="carousel-item-banner"> {/* Add the class name 'carousel-item' */}
                                 <div className="image-container">
-                                <Image src={item.src}></Image>
+                                    <Image src={item.src}></Image>
                                 </div>
                             </div>
                         ))}
                     </Carousel>
                 </div>
-                <Link href="#menu">
-                    <IoIosArrowDown onClick={scrollToMenu} className="arrow-down-banner"/>
-                </Link>
+                <IoIosArrowDown onClick={scrollToMenu} className="arrow-down-banner" />
             </div>
         </main>
     )
