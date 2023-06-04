@@ -27,13 +27,13 @@ export default function Banner2() {
     const images = [
         {
             id: 1,
-            src: burger,
-            alt: "burger",
+            src: spring,
+            alt: "spring rolls",
         },
         {
             id: 2,
-            src: ensalada,
-            alt: "ensalada",
+            src: tunapoke,
+            alt: "tuna poke",
         },
         {
             id: 3,
@@ -42,8 +42,8 @@ export default function Banner2() {
         },
         {
             id: 4,
-            src: spring,
-            alt: "spring rolls",
+            src: burger,
+            alt: "burger",
         },
         {
             id: 5,
@@ -52,8 +52,8 @@ export default function Banner2() {
         },
         {
             id: 6,
-            src: tunapoke,
-            alt: "tuna poke",
+            src: ensalada,
+            alt: "enslada",
         },
         {
             id: 7,
