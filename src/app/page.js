@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 import Loading from './components/Loading';
 import { useRouter } from 'next/navigation';
+import Banner2 from './components/Banner2';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,12 +26,12 @@ export default function Home() {
 
   return (
     <main>
-      {isLoading ? (
+      {false ? (
         <Loading />
       ) : (
         <>
           <NavBar />
-          <BannerInicio />
+          <Banner2 />
           <Menu />
           <Catering />
           <SobreNosotros />

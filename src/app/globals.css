@@ -59,7 +59,7 @@ body {
 @media (max-width: 450px) {
   .logoNavBar {
     scale: 60%;
-    margin-left: 1rem;
+    margin-left: -1rem;
   }
 }
 
@@ -312,5 +312,49 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.banner2{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  height: 75vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.image-container img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.slider-container-banner2{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-down-banner{
+  animation: float 1s ease-in-out infinite;
+  transition: 1s ease all;
+  width: 100%;
+  height: 2rem;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
