@@ -12,7 +12,7 @@ export default function Catering() {
         const interval = setInterval(() => {
             const nextSlide = (currentSlide + 1) % responsive.length;
             setCurrentSlide(nextSlide);
-        }, 5000);
+        }, 2000);
 
         return () => {
             clearInterval(interval);

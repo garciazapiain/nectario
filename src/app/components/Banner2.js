@@ -64,14 +64,14 @@ export default function Banner2() {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            const nextSlide = (currentSlide + 1) % responsive.length;
+            const nextSlide = (currentSlide + 1) % images.length;
             setCurrentSlide(nextSlide);
-        }, 5000);
+        }, 2000);
 
         return () => {
             clearInterval(interval);
         };
-    }, [currentSlide, responsive.length])
+    }, [currentSlide, images.length])
 
     return (
         <main id="banner2" className="banner2">
