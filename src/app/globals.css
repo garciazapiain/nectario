@@ -325,15 +325,27 @@ body {
 }
 
 .image-container {
-  height: 80vh;
+  height: 70vh;
   width: auto;
   overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .image-container {
+    height: 90vh;
+  }
 }
 
 .image-container img {
   height: 100%;
   width: auto;
   object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .image-container img {
+    object-fit:scale-down;
+  }
 }
 
 .slider-container-banner2{
