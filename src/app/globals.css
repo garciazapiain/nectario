@@ -66,8 +66,8 @@ body {
 
 .logoNavBar {
   margin-left: 1rem;
-  max-height: 8vh;
-  width: fit-content;
+  max-height: 7vh;
+  width: 7vh;
   scale: 80%;
 }
 
@@ -338,7 +338,7 @@ body {
 }
 
 .image-container {
-  height: 70vh;
+  height: 75vh;
   width: auto;
   overflow: hidden;
 }
