@@ -68,6 +68,7 @@ body {
   margin-left: 1rem;
   max-height: 8vh;
   width: fit-content;
+  scale: 80%;
 }
 
 .logoNavBarLink {
