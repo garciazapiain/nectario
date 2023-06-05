@@ -19,12 +19,12 @@
     },
     "4": {
         "nombre": "Sandwich Veggie",
-        "descripcion": "En pan integral o parmesano. Champiñones, espinaca, espiral de calabacita y cebolla, salteados en aceite de olivo con queso mozzarella (v)",
+        "descripcion": "En pan integral o parmesano. Champiñones, espinaca, espiral de calabacita y cebolla, salteados en aceite de oliva con queso mozzarella (v)",
         "precio": "$"
     },
     "5": {
         "nombre": "Sandwich No Doy",
-        "descripcion": "En box bread o pan de 5 granos. Especial apra el recreo; pan integral, aguacate, cebolla, queso mozzarella, tomate y mostaza dijon",
+        "descripcion": "En box bread o pan de 5 granos. Especial para el recreo; pan integral, aguacate, cebolla, queso mozzarella, tomate y mostaza dijon",
         "precio": "$129",
         "extras":{
             "1": "Con pavo $129",

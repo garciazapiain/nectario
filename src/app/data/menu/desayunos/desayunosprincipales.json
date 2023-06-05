@@ -6,7 +6,7 @@
     },
     "2": {
         "nombre":"Hotcakes",
-        "descripcion":"Con almendra y linaza; acompañada con fruta de temporada (vv, i)",
+        "descripcion":"Con almendra y linaza; acompañados con fruta de temporada (vv, i)",
         "precio":"$139"
     },
     "3": {
@@ -16,7 +16,7 @@
     },
     "4": {
         "nombre":"Avo Toast",
-        "descripcion":"Pan de granos, aguacate, albahaca y jeníbre. Acompañado de una ensalada de col morada (vv)",
+        "descripcion":"Pan de granos, aguacate, albahaca y jengibre. Acompañado de una ensalada de col morada (vv)",
         "precio":"$139",
         "extras":{
             "1":"Agrega trucha salmonada + $115",
@@ -26,7 +26,7 @@
     },
     "5": {
         "nombre": "Chilaquiles",
-        "descripcion":"Totópos en salsa verde, acompañados de varios quesos, jocoque seco y aguacate (o)",
+        "descripcion":"Totopos en salsa verde, acompañados de varios quesos, jocoque seco y aguacate (o)",
         "precio":"$149",
         "extras":{
             "1": "Agrega pollo + $80",
