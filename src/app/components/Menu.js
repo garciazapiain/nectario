@@ -66,16 +66,12 @@ export default function Menu() {
                         <p className='m-2'>(i) - Integral</p>
                         <p className='m-2'>(gf) - Gluten Friendly</p>
                     </div>
-                    <div className='md:hidden flex-col m-4'>
-                        <div className='flex justify-center'>
-                            <p className='m-2'>(o) - Orgánico</p>
-                            <p className='m-2'>(v) - Vegetariano</p>
-                            <p className='m-2'>(vv) - Vegano</p>
-                        </div>
-                        <div className='flex justify-center m-4'>
-                            <p className='m-2'>(i) - Integral</p>
-                            <p className='m-2'>(gf) - Gluten Friendly</p>
-                        </div>
+                    <div className='md:hidden flex-col mt-8 m-4'>
+                        <p className='mb-2'>(o) - Orgánico</p>
+                        <p className='mb-2'>(v) - Vegetariano</p>
+                        <p className='mb-2'>(vv) - Vegano</p>
+                        <p className='mb-2'>(i) - Integral</p>
+                        <p>(gf) - Gluten Friendly</p>
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import logo from "../images/logo/logo3.png";
+import logoLetters from "../images/logo/logo4.png";
 import Image from 'next/image';
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -36,6 +37,11 @@ function NavBar(props) {
             <Image className="logoNavBar" src={logo} />
           </Link>
         </div>
+        <div>
+          <Link className="w-1/3" href="#inicio" >
+            <Image className="logoNavBar" src={logoLetters} />
+          </Link>
+        </div>
         <div className="flex w-3/4 justify-end mr-1">
           <NavItem href="#menu">Menu</NavItem>
           <NavItem href="#catering">Catering</NavItem>
@@ -44,13 +50,18 @@ function NavBar(props) {
         </div>
       </ul>
       <div className="sm:hidden flex navBar justify-around">
-        <div className="flex items-center">
-          <Link className="w-1/3" href="#inicio" >
+        <div className="w-1/3 h-full first-letter:flex items-center justify-start">
+          <Link className="logoNavBarLink" href="#inicio" >
             <Image className="logoNavBar" src={logo} />
           </Link>
         </div>
+        <div className="w-1/3 first-letter:flex items-center">
+          <Link className="logoNavBarLink" href="#inicio" >
+            <Image className="logoNavBarLetters" src={logoLetters} />
+          </Link>
+        </div>
         <button
-          className="hamburgerMenu flex items-center focus:outline-none"
+          className="hamburgerMenu w-1/3 flex items-center focus:outline-none"
           onClick={toggleMenu}
         >
           {isMenuOpen ? <AiOutlineClose className="h-8 w-8 mr-4" /> : <FiMenu className="h-8 w-8 mr-4" />}
