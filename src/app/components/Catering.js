@@ -25,7 +25,10 @@ export default function Catering() {
                 <div className='title'>
                     <h1>Catering</h1>
                 </div>
-                <div className="slider-container">
+                <div className="m-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis leo sit amet faucibus condimentum.</p>
+                </div>
+                <div className="">
                     <Carousel
                         showArrows={true}
                         showIndicators={true}
@@ -34,13 +37,9 @@ export default function Catering() {
                         selectedItem={currentSlide}
                     >
                         {responsive.map((item) => (
-                            <div key={item.id} className="carousel-item"> {/* Add the class name 'carousel-item' */}
-                                <div>
+                            <div key={item.id}> {/* Add the class name 'carousel-item' */}
+                                <div className="image-container-catering">
                                     <img src={item.imageUrl} alt="slides" />
-                                </div>
-                                <div>
-                                    <h2>{item.title}</h2>
-                                    <p>{item.text}</p>
                                 </div>
                             </div>
                         ))}

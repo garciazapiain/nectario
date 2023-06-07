@@ -4,15 +4,16 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export default function Contacto() {
     return (
-        <main id="contacto" className=''>
-            <div className='h-screen md:h-full'>
+        <main id="contacto">
+            <div>
                 <div className='title'>
                     <h1>Contacto</h1>
                 </div>
-                <div className='contactForm self-center justify-around justify-items-start'>
-                    <div className='p-2 contactFormItem'>
+                <div className='contactForm self-center mx-8 justify-items-start'>
+                    <div className='p-2 mr-10 contactFormItem'>
                         <h3 className='menuPlateTitle'>Dirección</h3>
-                        <p>Av Paseo del Moral 400, Colonia Jardines del Moral</p>
+                        <p>Av Paseo del Moral 400</p>
+                        <p>Colonia Jardines del Moral</p>
                         <p className='mb-4'>León, Guanajuato, Mexico</p>
                         <a
                             className={'googleMapsButton'}
@@ -22,20 +23,20 @@ export default function Contacto() {
                             Google maps
                         </a>
                     </div>
-                    <div className='p-2 contactFormItem'>
+                    <div className='p-2 mr-10 contactFormItem'>
                         <h3 className='menuPlateTitle'>horario</h3>
                         <p>lunes - viernes 7:30 am - 10 pm</p>
                         <p>sábado 8:00 am - 10 pm</p>
                         <p>domingo - 8:00 am - 8:45 pm</p>
                     </div>
-                    <div className='p-2 contactFormItem'>
-                        <h3 className='menuPlateTitle'>contacto</h3>
+                    <div className='p-2 mr-10 contactFormItem'>
+                        <h3 className='menuPlateTitle'>teléfono</h3>
                         <a href="tel:477-390-0021">
-                            <p>tel: 477 390 0021</p>
+                            <p>477 390 0021</p>
                         </a>
                     </div>
                 </div>
-                <div className='flex mb-5 justify-center align-center'>
+                <div className='flex mb-4 justify-center align-center'>
                     <a href=" https://api.whatsapp.com/send?phone=524778508037" target="_blank"><BsWhatsapp className='mx-3 h-8 w-8'/></a>
                     <a href="https://www.facebook.com/profile.php?id=100054607682526" target="_blank"><BsFacebook className='mx-3 h-8 w-8'/></a>
                     <a href="https://www.instagram.com/nectariomarket/?hl=en" target="_blank"><BsInstagram className='mx-3 h-8 w-8'/></a>

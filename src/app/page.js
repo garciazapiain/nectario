@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react';
 import Loading from './components/Loading';
 import { useRouter } from 'next/navigation';
 import Banner2 from './components/Banner2';
+import {BsWhatsapp} from "react-icons/bs"
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +38,9 @@ export default function Home() {
           <SobreNosotros />
           <Contacto />
           <Footer />
+          <div>
+            <a href=" https://api.whatsapp.com/send?phone=524778508037" target="_blank"><BsWhatsapp className='whatsappStickyIcon'/></a>
+          </div>
         </>
       )}
     </main>

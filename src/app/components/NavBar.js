@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import logo from "../images/logo/logo3.png";
-import logoLetters from "../images/logo/logo4.png";
+import logoLetters from "../images/logo/pinklogo.png";
 import Image from 'next/image';
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -31,32 +31,32 @@ function NavBar(props) {
       className={`navBarContainer fixed top-0 left-0 w-full transition-transform duration-300 ease-in-out transform z-50 ${isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
     >
-      <ul className="navBar pr-1 hidden sm:flex items-center justify-around font-medium backdrop-blur">
-        <div className="flex">
-          <Link className="w-1/3" href="#inicio" >
+      <ul className="navBar pr-1 hidden lg:flex items-center justify-around font-medium backdrop-blur">
+        <div className="flex w-1/3 justify-center">
+          <Link className="w-full" href="#inicio" >
             <Image className="logoNavBar" src={logo} />
           </Link>
         </div>
-        <div>
-          <Link className="w-1/3" href="#inicio" >
-            <Image className="logoNavBar" src={logoLetters} />
+        <div className="w-1/3 flex justify-center">
+          <Link className="logoNavBarLink justify-center" href="#inicio" >
+            <Image className="logoNavBarLetters" src={logoLetters} />
           </Link>
         </div>
-        <div className="flex w-3/4 justify-end mr-1">
+        <div className="flex w-1/3 justify-end mr-1">
           <NavItem href="#menu">Menu</NavItem>
           <NavItem href="#catering">Catering</NavItem>
           <NavItem href="#sobrenosotros">Nosotros</NavItem>
           <NavItem href="#contacto">Contacto</NavItem>
         </div>
       </ul>
-      <div className="sm:hidden flex navBar justify-around">
+      <div className="lg:hidden flex navBar justify-around">
         <div className="w-1/3 h-full first-letter:flex items-center justify-start">
           <Link className="logoNavBarLink" href="#inicio" >
             <Image className="logoNavBar" src={logo} />
           </Link>
         </div>
         <div className="w-1/3 first-letter:flex items-center">
-          <Link className="logoNavBarLink" href="#inicio" >
+          <Link className="logoNavBarLink justify-center" href="#inicio" >
             <Image className="logoNavBarLetters" src={logoLetters} />
           </Link>
         </div>
