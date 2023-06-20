@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <main>
-      {false ? (
+      {isLoading ? (
         <Loading />
       ) : (
         <>
