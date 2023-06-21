@@ -1,20 +1,19 @@
 "use client"; // This is a client component 👈🏽
 import React, { useState, useEffect } from "react";
 import { Carousel } from 'react-responsive-carousel';
-import { items } from "../data/carousel.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import burger from '../images/banner/burger.jpeg';
-import ensalada from '../images/banner/ensalada.jpeg'
-import smoothies from '../images/banner/smoothies.jpeg'
-import spring from '../images/banner/spring.jpeg'
-import tabbouleh from '../images/banner/tabbouleh.jpeg'
-import tunapoke from '../images/banner/tunapoke.jpeg'
-import dogFriendly from '../images/banner/dogfriendly.jpeg'
+import burger from '../images/banner-inicio/burger.jpeg';
+import ensalada from '../images/banner-inicio/ensalada.jpeg'
+import smoothies from '../images/banner-inicio/smoothies.jpeg'
+import spring from '../images/banner-inicio/spring.jpeg'
+import tabbouleh from '../images/banner-inicio/tabbouleh.jpeg'
+import tunapoke from '../images/banner-inicio/tunapoke.jpeg'
+import dogFriendly from '../images/banner-inicio/dogfriendly.jpeg'
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 
 
-export default function Banner() {
+export default function BannerInicio() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const scrollToMenu = () => {

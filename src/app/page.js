@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 import Loading from './components/Loading';
 import { useRouter } from 'next/navigation';
-import Banner from './components/Banner';
+import BannerInicio from './components/BannerInicio';
 import {BsWhatsapp} from "react-icons/bs"
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
       ) : (
         <>
           <NavBar />
-          <Banner />
+          <BannerInicio />
           <Menu />
           <Catering />
           <SobreNosotros />
