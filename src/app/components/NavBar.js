@@ -69,7 +69,7 @@ function NavBar(props) {
       </div>
       {
         isMenuOpen && (
-          <ul onClick={toggleMenu} className="navBarMobileMenu sm:hidden pl-8 text-xl">
+          <ul onClick={toggleMenu} className="navBarMobileMenu lg:hidden pl-8 text-xl">
             <NavItem href="#menu">Menu</NavItem>
             <NavItem href="#catering">Catering</NavItem>
             <NavItem href="#sobrenosotros">Nosotros</NavItem>

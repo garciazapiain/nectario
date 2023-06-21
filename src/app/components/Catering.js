@@ -26,7 +26,7 @@ export default function Catering() {
                     <h1>Catering</h1>
                 </div>
                 <div className="m-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis leo sit amet faucibus condimentum.</p>
+                    <p>En Nectario te ofrecemos servicio de catering para tu evento. Nos encargaremos de brindarte una experiencia culinaria única y deliciosa para satisfacer los gustos y necesidades de tus invitados. Desde exquisitos aperitivos hasta platos principales y postres deliciosos, nuestro menú ofrece una amplia variedad de opciones para adaptarse a diferentes preferencias y requisitos dietéticos. Si deseas más información sobre nuestros servicios de catering o quieres discutir los detalles de tu evento, puedes contactarnos fácilmente a través de WhatsApp o por teléfono. Queremos ayudarte a crear una experiencia memorable y deliciosa para tu próximo evento.</p>
                 </div>
                 <div className="">
                     <Carousel

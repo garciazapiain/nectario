@@ -6,7 +6,7 @@ export default function Footer() {
         <main id="footer" className='footer'>
             <div className="footerContainer">
                 <Image className="logoFooter" src={logo}></Image>
-                <p>Nectario</p>
+                <p>© Nectario {new Date().getFullYear()}</p>
             </div>
         </main>
     )

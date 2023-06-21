@@ -3,18 +3,18 @@ import React, { useState, useEffect } from "react";
 import { Carousel } from 'react-responsive-carousel';
 import { items } from "../data/carousel.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import burger from '../images/banner2/burger.jpeg';
-import ensalada from '../images/banner2/ensalada.jpeg'
-import smoothies from '../images/banner2/smoothies.jpeg'
-import spring from '../images/banner2/spring.jpeg'
-import tabbouleh from '../images/banner2/tabbouleh.jpeg'
-import tunapoke from '../images/banner2/tunapoke.jpeg'
-import dogFriendly from '../images/banner2/dogfriendly.jpeg'
+import burger from '../images/banner/burger.jpeg';
+import ensalada from '../images/banner/ensalada.jpeg'
+import smoothies from '../images/banner/smoothies.jpeg'
+import spring from '../images/banner/spring.jpeg'
+import tabbouleh from '../images/banner/tabbouleh.jpeg'
+import tunapoke from '../images/banner/tunapoke.jpeg'
+import dogFriendly from '../images/banner/dogfriendly.jpeg'
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 
 
-export default function Banner2() {
+export default function Banner() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const scrollToMenu = () => {
@@ -72,8 +72,8 @@ export default function Banner2() {
     }, [currentSlide, images.length])
 
     return (
-        <main id="banner2" className="banner2">
-            <div className="slider-container-banner2">
+        <main id="banner" className="banner">
+            <div className="slider-container-banner">
                 <div>
                     <Carousel
                         showArrows={true}

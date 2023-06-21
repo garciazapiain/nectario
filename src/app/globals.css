@@ -111,43 +111,6 @@ body {
   }
 }
 
-.bannerContainerSection1 {
-  height: 100%;
-  width: 60%;
-  background-image: url('./images/bannerinicio/plantas.png')
-}
-
-.bannerContainerSection2 {
-  display: flex;
-  align-items: flex-end;
-  background-color: #ffe0d3;
-  height: 100%;
-  width: 40%;
-}
-
-.bannerContainerMobileSection1 {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  background-image: url('./images/bannerinicio/plantas.png')
-}
-
-.bannerContainerMobileSection2 {
-  background-color: #ffe0d3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-
-@media (max-width: 450px) {
-  .bannerContainerMobileSection2 {
-    height: 35%
-  }
-}
-
 .sobreNosotros {
   height: 100vh;
   display: flex;
@@ -156,7 +119,7 @@ body {
 
 .sobreNosotrosContentMobile {
   background-image: url('./images/sobrenosotros/sobreNosotros.jpeg');
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .menu {
@@ -333,7 +296,7 @@ body {
   }
 }
 
-.banner2 {
+.banner {
   display: flex;
   align-items: center;
 }
@@ -374,7 +337,7 @@ body {
   object-fit: cover;
 }
 
-.slider-container-banner2 {
+.slider-container-banner {
   position: relative;
   display: flex;
   flex-direction: column;
